@@ -1,0 +1,23 @@
+.LocationList{
+    height: 85vh;
+    overflow: auto;
+    
+}
+.forecast-title{
+    color:white;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+@media (max-width:48em){
+    .LocationList{
+        max-height: 40vh;
+        margin-bottom:20px;
+    }
+    .forecast-title{
+        color:white;
+        text-align: center;
+        padding-top:15px;
+        padding-bottom: 15px;
+    }
+}
